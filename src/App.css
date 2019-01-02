@@ -1,0 +1,65 @@
+body {
+  font-family: "Open Sans", serif;
+  background: #0B0B3B;
+}
+
+input[type="text"] {
+  background-color: transparent;
+  border: 0;
+  border-bottom: solid 1px #fff;
+  width: 20%;
+  padding-bottom: 4px;
+  color: #fff !important;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  font-size: 20px;
+  
+}
+
+
+button {
+  border: 0;
+  padding: 8px 20px;
+  margin: 0 2px;
+  border-radius: 2px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: #A3E4D7;
+  color: #000;
+  font-weight: 100;
+}
+
+button:active {
+  outline: none;
+}
+
+.weatherImage > img{
+  height:100%;
+  width:100%;
+}
+
+h1{
+  color:#fff;
+}
+
+p{
+  color: #fff;
+}
+
+.weatherImage{
+  margin-left: 550px;
+  float: left;
+  width: 470px;
+  height: 400px;
+  margin: 1em;
+ 
+}
+
+.mainBody{
+  margin-right:500px;
+ margin-top: 200px; 
+}
